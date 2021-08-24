@@ -1,4 +1,4 @@
-grades = (47, 95, 88, 73, 88, 84)
+grades = [47, 95, 88, 73, 88, 84]
 total = sum(grades)
 count = len(grades
 average = sum(grades)/len(grades):
