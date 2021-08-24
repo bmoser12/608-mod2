@@ -1,6 +1,8 @@
-
-for values in range(47, 95, 88, 73, 88, 84):
-  print ('sum is'sum(values))
-  print ('count is'len(values))
-  print ('average is' average = sum(values)/len(values))
+grades = (47, 95, 88, 73, 88, 84)
+total = sum(grades)
+count = len(grades
+average = sum(grades)/len(grades):
+print('The average of the grades is:', average)
+print('The number of grades is:',count)
+print('The total of the grades is:',total)
 
