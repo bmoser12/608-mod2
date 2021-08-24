@@ -18,7 +18,7 @@ data = collections.counter(grades)
 data_list=dict(data)
 print(data_list)
 max_value = max(list(data.values()))
-mode_val = [num for num, freq in data_list.items() if freq == max_value)
+mode_val = [num for num, freq in data_list.items() if freq == max_value]
 if len(mod_val)==len(num_list):
    print('no mode in the list')
 else:
