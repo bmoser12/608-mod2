@@ -13,13 +13,5 @@ if count %2==0:
 else:
   median = grades[count//2]
 print('The median is:'+str(median))
-print(grades)
-data = collections.counter(grades)
-data_list=dict(data)
-print(data_list)
-max_value = max(list(data.values()))
-mode_val = [num for num, freq in data_list.items() if freq == max_value]
-if len(mod_val)==len(num_list):
-   print('no mode in the list')
-else:
-   print('The mode of the list is:'+','.join(map(str,mode_val)))
+mode = max(grades, key = grades.count)
+print('The mode is', mode)
