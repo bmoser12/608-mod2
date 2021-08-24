@@ -9,6 +9,6 @@ if count %2==0:
   median1 = grades[count//2]
   median2 = grades[count//2-1]
   median = (median1+median2)/2
- else:
+else:
   median = grades[count//2]
  print('The median is:'+str(median))
