@@ -1,4 +1,4 @@
 values = [47, 95, 88, 73, 88, 84]
-sum(values)
-len(values)
-average = sum(values)/len(values)
+print ('sum is'sum(values))
+print ('count is'len(values))
+print ('average is' average = sum(values)/len(values))
